@@ -1,0 +1,47 @@
+package ClassLearning;
+
+public class ClassTest {
+
+	/*
+	 * 说明：static不可调用非static【注意this的含义】
+	 */
+	public void Test()
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Test();存在错误。见上面说明
+		
+		//测试存在构造器类PersonTestWithConstructor
+		/*
+		 * 由于已定义构造器，无法再使用无参数的系统构造器
+		 * 若要使用，需要在类中声明
+		 */
+		//PersonTestWithConstructor p = new PersonTestWithConstructor();
+		PersonTestWithContructor p = new PersonTestWithContructor("attr1");
+		/*
+		 *下面即为调用了系统构造器 
+		 */
+		PersonTestWithoutConstructor p1 = new PersonTestWithoutConstructor();
+		/*
+		 * 访问类中信息
+		 * 无法直接访问private函数与变量
+		 * （private变量通过public的函数公开）
+		 * public,protected皆可以访问
+		 */
+		p.myFunction1();
+		p.attr2 = "attr2";
+		p.attr3 = "attr3";
+		p.test = 2;
+		
+		
+		System.out.println(p.getAttr1());
+		System.out.println(p.getAttr2());
+		System.out.println(p.getAttr3());
+		System.out.println(p.getTest());
+	}
+
+}
