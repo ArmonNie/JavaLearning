@@ -1,4 +1,4 @@
-package mThread;
+package MyThread;
 
 public class Caculator implements Runnable{
 	
@@ -30,7 +30,7 @@ public class Caculator implements Runnable{
 	}
 
 	/*
-	 * ´Ë·½·¨ÓÃÓÚÌåÏÖÏß³ÌµÄ²¢ĞĞÌØĞÔ
+	 * ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ÌµÄ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void mPrint(int i)
 	{
@@ -41,7 +41,7 @@ public class Caculator implements Runnable{
 	}
 	
 	/*
-	 * ´Ë·½·¨ÓÃÓÚÊä³öµ±Ç°Ïß³ÌµÄÏêÏ¸ĞÅÏ¢
+	 * ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ß³Ìµï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢
 	 */
 	public void mPrintMessage()
 	{

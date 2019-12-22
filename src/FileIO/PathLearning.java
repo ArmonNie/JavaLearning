@@ -1,11 +1,14 @@
-package mThread;
+package FileIO;
 
-public class mThreadTest {
+
+/*
+ * 学习类Path
+ */
+public class PathLearning {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Thread th = new Thread();
-		th.start();
+
 	}
 
 }

@@ -1,13 +1,13 @@
-//Èë¿Úº¯Êý
+//ï¿½ï¿½Úºï¿½ï¿½ï¿½
 package main;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import BaseJavaClass.ScannerTest;
+import MyThread.Caculator;
 import NetPrograming.Client1;
 import NetPrograming.Server1;
-import mThread.Caculator;
 import BaseJavaClass.AssistantManager;
 import BaseJavaClass.BaseTypeCalssLearning;
 import BaseJavaClass.LQLearning;
@@ -22,7 +22,7 @@ public class Entrance {
         {
         	for(int j = 0 ;j < size-1-i ; j++)
         	{
-        		if(numbers[j] > numbers[j+1])  //½»»»Á½ÊýÎ»ÖÃ
+        		if(numbers[j] > numbers[j+1])  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
         		{
         			temp = numbers[j];
         			numbers[j] = numbers[j+1];
@@ -40,10 +40,10 @@ public class Entrance {
 		// TODO Auto-generated method stub
 
 		/*
-		 * ÒÔÏÂÒ»¶ÎÎªÀ¶ÇÅ±­²âÊÔ
+		 * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Îªï¿½ï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
 		LQLearning lqlearning = new LQLearning();
-		//lqlearning.T1();//µÚÒ»Ìâ
+		//lqlearning.T1();//ï¿½ï¿½Ò»ï¿½ï¿½
 		//lqlearning.T2();
 		//lqlearning.T3();
 		//lqlearning.T4();
@@ -54,14 +54,14 @@ public class Entrance {
 		//lqlearning.T8_1();
 		//lqlearning.T9();
 		
-		//¹ØÓÚmainº¯ÊýµÄ²ÎÊý²âÊÔ(cmdÃüÁî£¿£¿)
+		//ï¿½ï¿½ï¿½ï¿½mainï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(cmdï¿½ï¿½ï¿½î£¿ï¿½ï¿½)
 		//Testargs.outLength(args);
 		
-		//ScannerµÄÊ¹ÓÃ
+		//Scannerï¿½ï¿½Ê¹ï¿½ï¿½
 		//TestScanner.TestInputAndOutput(1,true);
 		//TestScanner.TestReadFileWithScanner();
 		
-//		AssistantManager zz = new AssistantManager("´´½¨22Ð¡Ê±ÈýÊ®Èý·ÖÖÓÊ®°ËÃë");
+//		AssistantManager zz = new AssistantManager("ï¿½ï¿½ï¿½ï¿½22Ð¡Ê±ï¿½ï¿½Ê®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½ï¿½ï¿½");
 //		zz.getTimeStr();
 //		zz.getHourStr();
 //		zz.getMinStr();
@@ -76,21 +76,21 @@ public class Entrance {
 		
 		
 		/*
-		 * ÒÔÏÂÎªÍøÂç±à³Ì´úÂë
+		 * ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ï¿½ï¿½
 		 */
 		
-		//ÊµÀý»¯Ò»¸ö·þÎñÆ÷³ÌÐò£¬¼àÌý8000¶Ë¿Ú
+		//Êµï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò£¬¼ï¿½ï¿½ï¿½8000ï¿½Ë¿ï¿½
 		/*Server1 server = new Server1();
 		server.Init();
 		server.service();*/
-		//ÊµÀý»¯Ò»¸ö¿Í»§¶Ë
+		//Êµï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½
 		/*Client1 client = new Client1("localhost",8000);
 		client.Init();
 		client.Connect();*/
 		
 		
 		/*
-		 * Ò»ÏÂÎªÏß³ÌµÄ±à³Ì
+		 * Ò»ï¿½ï¿½Îªï¿½ß³ÌµÄ±ï¿½ï¿½
 		 */
 		
 		/*for(int i=0;i<10;i++)
